@@ -1,4 +1,3 @@
-// src/app/privacy-policy/page.jsx
 import React from "react";
 
 export const metadata = {
@@ -9,7 +8,6 @@ export const metadata = {
 export default function PrivacyPolicy() {
 	return (
 		<div className="px-6 py-8 max-w-4xl mx-auto">
-			{/* Back button and title header */}
 			<div className="flex items-center justify-center mb-8 relative">
 				<div className="text-center">
 					<h1 className="text-xl font-medium">Privacy policy</h1>
@@ -27,17 +25,18 @@ export default function PrivacyPolicy() {
 				<section>
 					<p>
 						This Privacy Notice is designed to help you understand how Doc Ad
-						Analysis App ("we", "us," and "our") collects, uses, and shares your
-						personal information and to help you understand and exercise your
-						privacy rights.
+						Analysis App (&quot;we&quot;, &quot;us,&quot; and &quot;our&quot;)
+						collects, uses, and shares your personal information and to help you
+						understand and exercise your privacy rights.
 					</p>
 					<p>
 						We are committed to protecting and respecting your privacy and will
 						use your personal information on the terms specified below and in
-						accordance with the General Data Protection Regulation (the "GDPR"),
-						the California Consumer Privacy Act of 2018 (the "CCPA"), California
-						Privacy Rights Act (the "CPRA") and other applicable laws,
-						regulations and guidelines.
+						accordance with the General Data Protection Regulation (the
+						&quot;GDPR&quot;), the California Consumer Privacy Act of 2018 (the
+						&quot;CCPA&quot;), California Privacy Rights Act (the
+						&quot;CPRA&quot;) and other applicable laws, regulations and
+						guidelines.
 					</p>
 				</section>
 
@@ -47,7 +46,7 @@ export default function PrivacyPolicy() {
 						This Privacy Notice applies to personal information processed by us
 						in our Doc Ad Analysis App and website. To make this Privacy Notice
 						easier to read, our application and our related offerings are
-						collectively called "Services."
+						collectively called &quot;Services.&quot;
 					</p>
 				</section>
 
@@ -229,7 +228,7 @@ export default function PrivacyPolicy() {
 					<ul className="list-disc pl-8 space-y-2 mt-2">
 						<li>
 							We access and process Facebook advertising data in accordance with
-							Facebook's Platform Policy.
+							Facebook&apos;s Platform Policy.
 						</li>
 						<li>
 							We use cookies, Facebook Pixel, and similar technologies to
@@ -265,7 +264,7 @@ export default function PrivacyPolicy() {
 							</a>
 						</li>
 						<li>
-							Use the Digital Advertising Alliance's opt-out tool at{" "}
+							Use the Digital Advertising Alliance&apos;s opt-out tool at{" "}
 							<a
 								href="https://optout.aboutads.info/"
 								className="text-blue-600 hover:underline">
@@ -298,7 +297,7 @@ export default function PrivacyPolicy() {
 					</ul>
 					<p className="mt-2">
 						To exercise these rights, please contact us using the information
-						provided in the "Contact Us" section.
+						provided in the &quot;Contact Us&quot; section.
 					</p>
 				</section>
 
@@ -314,7 +313,9 @@ export default function PrivacyPolicy() {
 				</section>
 
 				<section>
-					<h3 className="text-xl font-semibold mb-3">10. Children's Privacy</h3>
+					<h3 className="text-xl font-semibold mb-3">
+						10. Children&apos;s Privacy
+					</h3>
 					<p>
 						Our application is not intended for individuals under the age of 18.
 						We do not knowingly collect personal information from children under
